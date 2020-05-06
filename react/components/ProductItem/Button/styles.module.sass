@@ -1,0 +1,49 @@
+@import "src/scss/colours"
+
+.container
+  height: 52px
+  background-color: white
+  width: 100%
+  padding: 0
+  display: flex
+  justify-content: center
+  align-items: center
+  transition: all .5s ease
+  box-sizing: border-box
+  cursor: pointer
+  appearance: none
+  border: 0
+  border-radius: 0
+
+  .image
+    width: 22.5px
+    margin-right: 15px
+    transition: all .5s ease
+
+  .name
+    display: block
+    font-weight: 500
+    font-size: 14px
+    letter-spacing: 0.08em
+    text-transform: uppercase
+    transition: all .5s ease
+    margin: 0
+
+.container:hover
+  background-color: $collectionsblue
+  .image
+    filter: invert(1)
+  .name
+    color: #FFFFFF
+  .arIcon
+    background-color: red
+
+.simple
+  border: 1px solid $collectionsblue
+  color: $collectionsblue
+
+.text
+  &.container, .name
+    background-color: $qrBg!important
+    color: black!important
+

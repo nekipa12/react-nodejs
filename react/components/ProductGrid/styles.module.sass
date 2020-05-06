@@ -1,0 +1,40 @@
+@import "../../scss/colours"
+@import "../../scss/variables"
+
+.container
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  .shopHeaderContainer
+    width: 100%
+    margin: 0 0 60px
+    padding: 0 90px
+    box-sizing: border-box
+
+    @media screen and (max-width: 500px)
+      padding: 0 40px
+
+    .title
+      font-family: $font-stack
+      font-weight: 500
+      font-size: 20px
+      line-height: 130%
+      letter-spacing: 0.08em
+      text-transform: uppercase
+      margin: 0
+      max-width: 300px
+
+    .subtitle
+      font-weight: 500
+      font-size: 12px
+      line-height: 120%
+      letter-spacing: 0.08em
+      text-transform: capitalize
+      color: $collectionsblue
+      margin-bottom: 9px
+      margin-top: 15rem;
+
+  .shopHeaderContainerModal
+    padding: 0 20px !important
+    margin: 35px 0 37px 0

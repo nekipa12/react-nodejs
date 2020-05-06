@@ -1,0 +1,45 @@
+.container
+  display: flex
+  flex-direction: column
+  width: 100%
+
+  .header
+    display: flex
+    cursor: pointer
+    height: 70px
+    justify-content: center
+    align-items: center
+
+    .headerTitle
+      text-transform: uppercase
+      font-size: 13px
+      font-weight: 500
+
+    .chevron
+      text-transform: uppercase
+      font-size: 13px
+      font-weight: 500
+      margin-left: 20px
+
+  .itemsContainer
+    border-top: black 1px solid
+    display: flex
+    flex-wrap: wrap
+    width: 100%
+    justify-content: center
+
+    .itemContainer
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+      .image
+        width: 150px
+
+      .name
+        font-size: 10px
+        text-transform: uppercase
+        text-align: center
+
+      .active
+        color: #7f8c3f
